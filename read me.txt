@@ -1,0 +1,7 @@
+This ETL extract information from 5 API URL that contain .Json, .CSV and .XLSX files. After that transform the data and then loads it into snowflake.
+
+1) run the Snowflake query to create the stages for S3 buckets with your S3 credentials in the file called Snowflake Queries S3 Stages DDL and Selects
+2) Put your credentials for S3 and snowflake in the python script named "Dublin_transportation_ETL.py" (you can get this information in the amazon web portal related cloud services and the snowflake web portal). See the PDF named "Tutorial - How to run this ETL" for more details
+3) A Cron job is configured for daily run, see the PDF named "Tutorial - How to run this ETL"
+4) The design of the ETL is in a document called "ETL Design"
+
